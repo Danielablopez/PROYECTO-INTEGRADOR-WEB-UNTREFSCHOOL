@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyecto">
+    <meta name="author" content="Daniela Lopez">
+    <title>Proyecto integrador</title>
+    <link rel="icon" type="image/x-con" href="imagenes/icono.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link href="formulario.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Belanosima:wght@400;700&family=Caprasimo&family=Poppins:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/contacto.css">
+    <title>Z4X, el robot</title>
+</head>
+
+<body>
+
+    <header>
+        
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Quienes Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">¿Porque elegirnos?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Propuesta educativa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Ultimas noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Contacto</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link active" href="formulario.html">Formulario</a>
+                  </li>
+                  
+                </ul>
+               
+              </div>
+            </div>
+        </nav>
+    
+        <h1>UntrefSchool</h1>
+    </header>
+
+    <div class="contenedor">
+        <form>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribí aquí tu nombre" required minlength="3">
+            <label for="mail">Email: </label>
+            <input type="email" id="mail" name="mail" placeholder="Escribí aquí tu mail" required>
+            <label for="pais">País: </label>
+            <select name="pais" id="pais">
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Perú">Perú</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="España">España</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Ecuaador">Ecuaador</option>
+            </select>
+            <label for="comentario">Comentario: </label>
+            <textarea name="comentario" id="comentario" placeholder="Escribí aquí tu comentario"></textarea>
+
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </div>
+
+
+    <footer>
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+
+
+</body>
+
+</html>
