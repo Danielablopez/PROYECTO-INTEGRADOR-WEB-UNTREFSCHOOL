@@ -16,7 +16,7 @@ body{
 }
 .seccion-oscura {
   color: white;
-  background-color: #1b1b32;
+  background-color: #181823;
 }
 
 .seccion-clara {
@@ -39,7 +39,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #666363;
+    background-color: #fc7300;
 }
 
 li{
@@ -69,7 +69,7 @@ h1{
     background-color: black;
     padding: 10px;
     margin: 0;
-    color: #2bff00;
+    color: #fc7300;
     text-align: center;
 }
 .iconos-redes-sociales a {
