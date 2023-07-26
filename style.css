@@ -19,12 +19,6 @@ body{
   background-color: #181823;
 }
 
-.seccion-clara {
-  color: black;
-  background-color: white;
-}
-
- 
 
 header{
     text-align: center;
@@ -55,10 +49,10 @@ li a{
 }
 
 .quienes-somos-imagen3 {
-  width: 200px;
-    height: 200px;
-  border-radius: 5%;
-  
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  justify-content: center; 
 }
 
 li a:hover:not(.active){
@@ -67,11 +61,19 @@ li a:hover:not(.active){
 
 h1{
     background-color: black;
-    padding: 10px;
+    padding: 5px;
     margin: 0;
     color: #fc7300;
     text-align: center;
 }
+h3{
+  text-align: center;
+}
+.footer{
+  text-align: center; 
+}
+
+
 .iconos-redes-sociales a {
     width: 50px;
     height: 50px;
@@ -96,40 +98,14 @@ h1{
     border: 2px solid rgb(13, 110, 253);
   }
   
-  .iconos-telefono-email a {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items:flex-end;
-    justify-content: flex-end;
-    padding: 2px;
-    margin: 10px;
-    border: 2px solid white;
-    border-radius: 50%;
-    transition: all 0.2s ease-in;
-  }
-  
-  .iconos-telefono-email i {
-    color: white;
-    font-size: 1.5rem;
-    transition: all 0.2s ease-in;
-  }
-  
-  .iconos-telefono-email a:hover {
-    background-color: white;
-    border: 2px solid rgb(13, 110, 253);
-  }
-  
-  .iconos-telefono-email a:hover i {
-    color: rgb(192, 171, 171);
-  }
-
-
-
 main {
     background-color: #1f8a70;
     min-height: 450px;
     text-align: center;
+}
+
+.mapa {
+  justify-content: center;
 }
 
 .color-derecho-de-autor {
@@ -147,6 +123,8 @@ main {
     margin: 10px;
 
 }
+
+
 
 
   @media screen and (max-width: 767px) {

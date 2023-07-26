@@ -37,5 +37,27 @@ textarea:focus,input:focus{
 
 input[type="submit"]:hover{
     background-color: rgb(21, 207, 64);
+
 }
+
+.footer{
+    text-align: center; 
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+    .contenedor {
+     margin: 5px 0;
+    padding: 0;
+    width: 50%;
+    position: relative;
+    left: 25%; 
+    }
+
+}
+   
 
